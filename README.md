@@ -42,10 +42,102 @@ Business insights and recommendations
 ## Dataset Features
 ## Derived KPI Columns
 ## Order Information
-1. Order ID
-2. Order Date
-3. Ship Date
-4. Ship Mode
+  1. Order ID
+  2. Order Date
+  3. Ship Date
+  4. Ship Mode
+
+## Customer Information
+  1. Customer ID
+ 
+## Geographic Information
+  1. Country
+  2. State
+  3. City
+  4. Region
+
+## Product Information
+  1. Product ID
+  2. Product Name
+  3. Division
+
+## Data Cleaning and Preprocessing
+## 1. Date Standardization
+Converts:
+DD-MM-YYYY
+to
+YYYY-MM-DD
+for:
+
+Order Date
+Ship Date
+
+## 2. Product Name Correction
+Corrects:
+
+Wonka Bar -Scrumdiddlyumptious
+to:
+
+Wonka Bar - Scrumdiddlyumptious
+
+## 3. Feature Engineering
+## Gross Margin (%)
+Gross Margin (%) = (Gross Profit / Sales) × 100
+## Profit per Unit
+Profit per Unit = Gross Profit / Units
+## Revenue per Unit
+Revenue per Unit = Sales / Units
+## Cost per Unit
+Cost per Unit = Cost / Units
+
+## Exploratory Data Analysis
+## Top Products by Gross Profit
+1. Wonka Bar – Scrumdiddlyumptious
+2. Wonka Bar – Triple Dazzle Caramel
+3. Wonka Bar – Milk Chocolate
+4. Wonka Bar – Nutty Crunch Surprise
+5. Wonka Bar – Fudge Mallows
+
+## Dashboard Features
+
+## Sheet 1 – Gross Margin Analysis
+## Visualization
+Bar Chart
+Donut Chart
+Product Summary Table
+## Purpose
+Compare product profitability.
+Identify high-margin products.
+
+## Sheet 2 – Cost vs Sales Analysis
+## Visualization
+Scatter Plot
+COGS Percentage Chart
+Risk Table
+## Purpose
+Detect low-margin products.
+Analyze cost efficiency.
+
+## Sheet 3 – Division Performance
+## Visualization
+Grouped Bar Chart
+Donut Chart
+## Purpose
+Compare divisions.
+Measure gross profit contribution.
+
+## Sheet 4 – Profit per Unit Heatmap
+## Visualization
+Heatmap
+Pivot Table
+## Purpose
+Evaluate product profitability.
+Identify risky products.
+
+
+
+
+
 
 
 
