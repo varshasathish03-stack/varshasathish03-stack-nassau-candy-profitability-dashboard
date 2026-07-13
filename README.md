@@ -51,25 +51,20 @@ Product Line Profitability &amp; Margin Performance Analysis for Nassau Candy Di
 | Conversion Rate         | Purchases ÷ Visitors ×100                                |
 
 ## Project Structure
-NASSAU_CANDY/
-│
+
+NASSU_CANDY/
 ├── data/
 │   ├── raw/
 │   └── processed/
-│       └── nassau_candy_cleaned.csv
-│
+│       └── nassau_cleaned.csv
 ├── eda_charts/
-│
 ├── reports/
 │   └── nassau_candy_report.pdf
-│
 ├── scripts/
 │   ├── clean_nassau_data.py
 │   ├── nassau_eda_charts.py
 │   ├── profitability_analysis.py
-│   ├── sales_dashboard.py
 │   └── generate_nassau_report.py
-│
 ├── app.py
 ├── Dockerfile
 ├── docker-compose.yml
