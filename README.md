@@ -51,7 +51,7 @@ Product Line Profitability &amp; Margin Performance Analysis for Nassau Candy Di
 | Conversion Rate         | Purchases ÷ Visitors ×100                                |
 
 ## Project Structure
-NASSU_CANDY/
+NASSAU_CANDY/
 ├── data/
 │   ├── raw/
 │   └── processed/
@@ -83,8 +83,8 @@ NASSU_CANDY/
 | requirements.txt       | Required packages          |
 | README.md              | Project documentation      |
 
-## Installation 
-
+## Installation & Run
+## Run
 git clone https://github.com/varshasathish03-stack/nassau-candy-profitability-dashboard.git
 cd nassau-candy-profitability-dashboard
 python -m venv venv
@@ -97,6 +97,9 @@ python scripts/profitability_analysis.py
 python scripts/generate_nassau_report.py
 streamlit run app.py
 
+Access: http://localhost:8501
+
+## Run with Docker
 ## Requirements
 | Package      | Purpose                   |
 | ------------ | ------------------------- |
