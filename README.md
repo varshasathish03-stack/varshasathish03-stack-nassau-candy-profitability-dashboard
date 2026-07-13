@@ -1,23 +1,57 @@
 # Project Overview
-Product Line Profitability &amp; Margin Performance Analysis for Nassau Candy Distributor — interactive Streamlit dashboard with product/division profitability, margin risk diagnostics, and Pareto concentration analysis.
-## Datafields
-| Column Name   | Data Type | Description             |
+This project performs a comprehensive Exploratory Data Analysis (EDA) and profitability analysis on the Nassau Candy Distributor dataset. The objective is to transform raw transactional data into meaningful business insights and visualize product and division performance through an interactive dashboard.
+
+The project includes:
+
+Data cleaning and preprocessing
+Feature engineering
+Exploratory Data Analysis (EDA)
+Profitability analysis
+Risk analysis
+Interactive Streamlit dashboard
+Business insights and recommendations
+## Project Structure
+├── Nassau_Candy_Distributor.csv        # Raw dataset
+├── clean_nassau_candy.py              # Data cleaning and feature engineering
+├── nassau_candy_cleaned.csv           # Processed dataset
+├── nassau_streamlit_app.py            # Streamlit dashboard application
+├── README.md                          # Project documentation
+
+## Dataset Information
+| Column Name   | Data Type | Description             | 
 | ------------- | --------- | ----------------------- | 
-| Order_ID      | Integer   | Unique order identifier | 
-| Customer_ID   | String    | Unique customer ID      | 
+| Order_ID      | Integer   | Unique order identifier |
+| Customer_ID   | String    | Unique customer ID      |
 | Customer_Name | String    | Customer name           | 
 | Product_ID    | String    | Product identifier      | 
 | Product_Name  | String    | Product name            | 
-| Sub_Category  | String    | Product sub-category    | 
+| Category      | String    | Product category        | 
+| Sub_Category  | String    | Product sub-category    |
 | Order_Date    | Date      | Date of purchase        | 
 | Ship_Date     | Date      | Shipping date           | 
-| Quantity      | Integer   | Units sold              |
+| Region        | String    | Sales region            | 
+| State         | String    | State name              | 
+| City          | String    | City name               | 
+| Quantity      | Integer   | Units sold              | 
 | Unit_Price    | Decimal   | Price per unit          | 
 | Discount      | Decimal   | Discount percentage     | 
 | Sales         | Decimal   | Total sales amount      | 
 | Profit        | Decimal   | Profit amount           | 
 
+
+## Dataset Features
 ## Derived KPI Columns
+## Order Information
+1. Order ID
+2. Order Date
+3. Ship Date
+4. Ship Mode
+
+
+
+
+
+
 | KPI                  | Formula                               | Purpose                |
 | -------------------- | ------------------------------------- | ---------------------- |
 | Profit Margin        | Profit / Revenue ×100                 | Profit percentage      |
@@ -52,26 +86,6 @@ Product Line Profitability &amp; Margin Performance Analysis for Nassau Candy Di
 
 ## Project Structure
 
-NASSU_CANDY/
-├── data/
-│   ├── raw/
-│   └── processed/
-│       └── nassau_cleaned.csv
-├── eda_charts/
-├── reports/
-│   └── nassau_candy_report.pdf
-├── scripts/
-│   ├── clean_nassau_data.py
-│   ├── nassau_eda_charts.py
-│   ├── profitability_analysis.py
-│   └── generate_nassau_report.py
-├── app.py
-├── Dockerfile
-├── docker-compose.yml
-├── .dockerignore
-├── .gitignore
-├── requirements.txt
-└── README.md
 
 ## Scripts Description
 | File                   | Description                |
