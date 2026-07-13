@@ -1,18 +1,8 @@
-# 🍬 Nassau Candy Distributor – Data Analytics Project
+# 🍬 Product Line Profitability & Margin Performance Analysis for Nassau Candy Distributor
 
 ## 📌 Project Overview
 
 This project performs a comprehensive **Exploratory Data Analysis (EDA)** and **profitability analysis** on the **Nassau Candy Distributor** dataset. The objective is to transform raw transactional data into meaningful business insights and visualize product and division performance through an interactive dashboard.
-
-The project includes:
-
-* Data cleaning and preprocessing
-* Feature engineering
-* Exploratory Data Analysis (EDA)
-* Profitability analysis
-* Risk analysis
-* Interactive Streamlit dashboard
-* Business insights and recommendations
 
 ---
 
